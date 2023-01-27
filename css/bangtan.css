@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color: #fbfdff;
+    font-family: Rubik;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.container .info{
+    display: flex;
+    flex-direction: column;
+}
+.container .info .heading{
+    padding-left: 475px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container .info .heading h1{
+    font-size: 45px;
+}
+.container .info .para{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.container .info .para p{
+    text-align: justify;
+}
+.members{
+    display: flex;
+    flex-direction: column;
+}
+.members .title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.members .title h1{
+    font-size: 50px;
+}
+.members .images .three{
+    display:flex;
+    flex-direction: row;
+}
+.members .Namjoon img{
+    width: 350px;
+    height: 350px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.members .Namjoon h1{
+    padding-left: 180px;
+    font-size: 20px;
+}
+.members .Namjoon p{
+    padding-left: 120px
+}
+.members .Seokjin img{
+    width: 350px;
+    height: 350px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.members .Seokjin h1{
+    padding-left: 180px;
+    font-size: 20px;
+}
+.members .Seokjin p{
+    padding-left: 120px
+}
+.members .Yoongi img{
+    width: 350px;
+    height: 350px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.members .Yoongi h1{
+    padding-left: 180px;
+    font-size: 20px;
+}
+.members .Yoongi p{
+    padding-left: 120px
+}
+.members .images .next{
+    display:flex;
+    flex-direction: row;
+}
+.members .Hoseok img{
+    width: 350px;
+    height: 350px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 30px;
+}
+.members .Hoseok h1{
+    padding-left: 180px;
+    font-size: 20px;
+}
+.members .Hoseok p{
+    padding-left: 120px
+}
+.members .Jimin img{
+    width: 350px;
+    height: 350px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 30px;
+}
+.members .Jimin h1{
+    padding-left: 180px;
+    font-size: 20px;
+}
+.members .Jimin p{
+    padding-left: 120px
+}
+.members .Taehyung img{
+    width: 350px;
+    height: 350px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 30px;
+}
+.members .Taehyung h1{
+    padding-left: 180px;
+    font-size: 20px;
+}
+.members .Taehyung p{
+    padding-left: 120px
+}
+.members .Jungkook img{
+    width: 350px;
+    height: 350px;
+    padding-left: 445px;
+    padding-top: 30px;
+}
+.members .Jungkook h1{
+    padding-left: 550px;
+    font-size: 20px;
+}
+.members .Jungkook p{
+    padding-left: 480px
+}

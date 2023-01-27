@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    font-family: Rubik;
+    padding-left: 520px;
+    padding-top: 30px;
+}
+.albums .first{
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.albums .first .cool img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .first .cool:hover{
+    transform:scale(1.06)
+}
+.albums .first .orul82 img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .first .orul82:hover{
+    transform:scale(1.06)
+}
+.albums .first .skoolluv img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .first .skoolluv:hover{
+    transform:scale(1.06)
+}
+.albums .second{
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.albums .second .dark img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .second .dark:hover{
+    transform:scale(1.06)
+}
+.albums .second .hyyh1 img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .second .hyyh1:hover{
+    transform:scale(1.06)
+}
+.albums .second .hyyh2 img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .second .hyyh2:hover{
+    transform:scale(1.06)
+}
+.albums .third{
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.albums .third .youngforever img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .third .youngforever:hover{
+    transform:scale(1.06)
+}
+.albums .third .wings img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .third .wings:hover{
+    transform:scale(1.06)
+}
+.albums .third .ynwa img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .third .ynwa:hover{
+    transform:scale(1.06)
+}
+.albums .fourth{
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.albums .fourth .her img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .fourth .her:hover{
+    transform:scale(1.06)
+}
+.albums .fourth .tear img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .fourth .tear:hover{
+    transform:scale(1.06)
+}
+.albums .fourth .answer img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .fourth .answer:hover{
+    transform:scale(1.06)
+}
+.albums .fifth{
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.albums .fifth .persona img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .fifth .persona:hover{
+    transform:scale(1.06)
+}
+.albums .fifth .mots7 img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .fifth .mots7:hover{
+    transform:scale(1.06)
+}
+.albums .fifth .be img{
+    height: 316px;
+    width: 316px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.albums .fifth .be:hover{
+    transform:scale(1.06)
+}
+.albums .proof img{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 500px;
+}
+.albums .proof:hover{
+    transform:scale(1.06)
+}
+

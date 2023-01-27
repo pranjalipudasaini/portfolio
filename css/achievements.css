@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.major{
+    display: flex;
+}
+.major .awards h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline #4f75e8;
+}
+.major .awards ul{
+    position: absolute;
+    width: 450px;
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+.awards h1{
+    padding-left: 80px;
+}
+.major .awards ul li{
+    display: flex;
+    background: rgba(255,255,255,.1);
+    padding:10px 20px;
+    font-weight: bold;
+    color: #112851;
+    margin:5px 0;
+    transition:0.5s;
+}
+.major .achievements{
+    padding-left: 370px;
+}
+.major .achievements h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-decoration: underline #4f75e8;
+}
+.major .achievements ul{
+    position: absolute;
+    width: 450px;
+    box-sizing: border-box;
+}
+.major .achievements ul li{
+    display: flex;
+    background: rgba(255,255,255,.1);
+    padding:10px 20px;
+    color:#112851;
+    font-weight: bold;
+    margin:5px 0;
+    transition:0.5s;
+}
+.major .awards ul li:nth-child(1){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(2){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(3){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(4){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(5){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(6){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(7){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(8){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(9){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(10){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(11){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(12){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(13){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(14){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(15){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(16){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(17){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(18){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(19){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(20){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(21){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(22){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(23){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(24){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(25){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(26){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(27){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(28){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(29){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(30){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(31){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(32){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:nth-child(33){
+    background: rgba(255,255,255,.9)
+}
+.major .awards ul li:hover{
+    transform: scale(1.06);
+    color: #205fbf;
+}
+.major .achievements ul li:nth-child(1){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(2){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(3){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(4){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(5){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(6){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(7){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(8){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(9){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(10){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(11){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(12){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(13){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(14){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(15){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(16){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(17){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(18){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(19){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(20){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(21){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(22){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(23){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(24){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(25){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(26){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:nth-child(27){
+    background: rgba(255,255,255,.9)
+}
+.major .achievements ul li:hover{
+    transform: scale(1.06);
+    color: #205fbf;
+}
