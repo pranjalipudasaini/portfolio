@@ -5,183 +5,136 @@
 body{
     background-color: black;
     color: aliceblue;
+    font-family: Rubik;
+}
+.main{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/pics/members/btsnav.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.main nav img{
+    height: 60px;
+    width: 65px;
+    padding-right: 30px;
+}
+.main nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .nav-links{
+    flex: 1;
+    text-align: right;
+}
+.main .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.main .nav-links ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 13px;
+}
+.main .nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #3382cb;
+    display: block;
+    margin: auto;
+}
+.main .nav-links ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
 }
 h1{
-    font-family: Rubik;
-    padding-left: 520px;
     padding-top: 30px;
-}
-.albums .first{
-    display: flex;
-    flex-direction: row;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-.albums .first .cool img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .first .cool:hover{
-    transform:scale(1.06)
-}
-.albums .first .orul82 img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .first .orul82:hover{
-    transform:scale(1.06)
-}
-.albums .first .skoolluv img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .first .skoolluv:hover{
-    transform:scale(1.06)
-}
-.albums .second{
-    display: flex;
-    flex-direction: row;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-.albums .second .dark img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .second .dark:hover{
-    transform:scale(1.06)
-}
-.albums .second .hyyh1 img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .second .hyyh1:hover{
-    transform:scale(1.06)
-}
-.albums .second .hyyh2 img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .second .hyyh2:hover{
-    transform:scale(1.06)
-}
-.albums .third{
-    display: flex;
-    flex-direction: row;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-.albums .third .youngforever img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .third .youngforever:hover{
-    transform:scale(1.06)
-}
-.albums .third .wings img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .third .wings:hover{
-    transform:scale(1.06)
-}
-.albums .third .ynwa img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .third .ynwa:hover{
-    transform:scale(1.06)
-}
-.albums .fourth{
-    display: flex;
-    flex-direction: row;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-.albums .fourth .her img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .fourth .her:hover{
-    transform:scale(1.06)
-}
-.albums .fourth .tear img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .fourth .tear:hover{
-    transform:scale(1.06)
-}
-.albums .fourth .answer img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .fourth .answer:hover{
-    transform:scale(1.06)
-}
-.albums .fifth{
-    display: flex;
-    flex-direction: row;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-.albums .fifth .persona img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .fifth .persona:hover{
-    transform:scale(1.06)
-}
-.albums .fifth .mots7 img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .fifth .mots7:hover{
-    transform:scale(1.06)
-}
-.albums .fifth .be img{
-    height: 316px;
-    width: 316px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.albums .fifth .be:hover{
-    transform:scale(1.06)
-}
-.albums .proof img{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 500px;
-}
-.albums .proof:hover{
-    transform:scale(1.06)
+    text-align: center;
+    padding-bottom: 30px;
 }
 
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fourth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.proof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.albums .first img:hover{
+    transform:scale(1.06);
+}
+
+.albums .second img:hover{
+    transform:scale(1.06);
+}
+
+.albums .third img:hover{
+    transform:scale(1.06);
+}
+
+.albums .fourth img:hover{
+    transform:scale(1.06);
+}
+
+
+.albums .fifth img:hover{
+    transform:scale(1.06);
+}
+
+.albums .proof img:hover{
+    transform:scale(1.06);
+}

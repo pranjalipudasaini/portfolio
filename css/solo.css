@@ -1,0 +1,448 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    font-family: Rubik;
+    color: aliceblue;
+}
+.main{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/pics/members/btsnav.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.main nav img{
+    height: 60px;
+    width: 65px;
+    padding-right: 30px;
+}
+.main nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .nav-links{
+    flex: 1;
+    text-align: right;
+}
+.main .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.main .nav-links ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 13px;
+}
+.main .nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #3382cb;
+    display: block;
+    margin: auto;
+}
+.main .nav-links ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.solos{
+    display: flex;
+    flex-direction: column;
+}
+.solos h1{
+    padding-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: 0 0 7px #00213b, 0 0 8px #217cdc;
+}
+.solos .rmsolo{
+    border: 8px;
+    border-style: double;
+    border-color:  #374f9d;
+}
+.solos .jinsolo{
+    border: 8px;
+    border-style: double;
+    border-color: #374f9d;
+    border-top: 30px;
+}
+.solos .ygsolo{
+    border: 8px;
+    border-style: double;
+    border-color:  #374f9d;
+    border-top: 30px;
+}
+.solos .hsksolo{
+    border: 8px;
+    border-style: double;
+    border-color: #374f9d;
+    border-top: 30px;
+}
+.solos .jmsolo{
+    border: 8px;
+    border-style: double;
+    border-color: #374f9d;
+    border-top: 30px;
+}
+.solos .thsolo{
+    border: 8px;
+    border-style: double;
+    border-color:  #374f9d;
+    border-top: 30px;
+}
+.solos .jksolo{
+    border: 8px;
+    border-style: double;
+    border-color: #374f9d;
+    border-top: 30px;
+}
+.solos .rmsolo h1{
+    padding-left: 600px;
+    padding-top: 20px;
+}
+.solos .rmsolo img{
+    height: 316px;
+    width: 316px;
+    padding-top: 50px;
+}
+.solos .rmsolo .rmfirst{
+    display: flex;
+    flex-direction: row;
+}
+.solos .rmsolo .rmfirst .indigo{
+    padding-left: 200px;
+}
+.solos .rmsolo .rmfirst .indigo:hover{
+    transform: scale(1.06);
+}
+.solos .rmsolo .rmfirst .mono{
+    padding-left: 200px;
+}
+.solos .rmsolo .rmfirst .mono:hover{
+    transform: scale(1.06);
+}
+.solos .rmsolo .rm1{
+    padding-left: 450px;
+}
+.solos .rmsolo .rm1:hover{
+    transform: scale(1.06);
+}
+.solos .rmsolo .rmsecond{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.solos .rmsolo .rmsecond .dont{
+    padding-left: 200px;
+}
+.solos .rmsolo .rmsecond .dont:hover{
+    transform: scale(1.06);
+}
+.solos .rmsolo .rmsecond .coy{
+    padding-left: 200px;
+}
+.solos .rmsolo .rmsecond .coy:hover{
+    transform: scale(1.06);
+}
+.solos .jinsolo img{
+    height: 316px;
+    width: 316px;
+    padding-top: 40px;
+}
+.solos .jinsolo h1{
+    padding-left: 600px;
+    padding-top: 80px;
+}
+.solos .jinsolo .jinfirst{
+    display: flex;
+    flex-direction: row;
+}
+.solos .jinsolo .jinfirst .astronaut{
+    padding-left: 200px;
+}
+.solos .jinsolo .jinfirst .astronaut:hover{
+    transform: scale(1.06);
+}
+.solos .jinsolo .jinfirst .abyss{
+    padding-left: 200px;
+}
+.solos .jinsolo .jinfirst .abyss:hover{
+    transform: scale(1.06);
+}
+.solos .jinsolo .tonight{
+    padding-left: 450px;
+}
+.solos .jinsolo .tonight:hover{
+    transform: scale(1.06);
+}
+.solos .jinsolo .jinsecond{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.solos .jinsolo .jinsecond .yours{
+    padding-left: 200px;
+}
+.solos .jinsolo .jinsecond .yours:hover{
+    transform: scale(1.06);
+}
+.solos .jinsolo .jinsecond .awake{
+    padding-left: 200px;
+}
+.solos .jinsolo .jinsecond .awake:hover{
+    transform: scale(1.06);
+}
+.solos .ygsolo img{
+    height: 316px;
+    width: 316px;
+    padding-top: 40px;
+}
+.solos .ygsolo h1{
+    padding-left: 600px;
+    padding-top: 80px;
+}
+.solos .ygsolo .ygfirst{
+    display: flex;
+    flex-direction: row;
+}
+.solos .ygsolo .ygfirst .agustd{
+    padding-left: 200px;
+}
+.solos .ygsolo .ygfirst .agustd:hover{
+    transform: scale(1.06);
+}
+.solos .ygsolo .ygfirst .d2{
+    padding-left: 200px;
+}
+.solos .ygsolo .ygfirst .d2:hover{
+    transform: scale(1.06);
+}
+.solos .ygsolo .that{
+    padding-left: 450px;
+}
+.solos .ygsolo .that:hover{
+    transform: scale(1.06);
+}
+.solos .ygsolo .ygsecond{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.solos .ygsolo .ygsecond .gomd{
+    padding-left: 200px;
+}
+.solos .ygsolo .ygsecond .gomd:hover{
+    transform: scale(1.06);
+}
+.solos .ygsolo .ygsecond .eight{
+    padding-left: 200px;
+}
+.solos .ygsolo .ygsecond .eight:hover{
+    transform: scale(1.06);
+}
+.solos .hsksolo img{
+    height: 316px;
+    width: 316px;
+    padding-top: 40px;
+}
+.solos .hsksolo h1{
+    padding-left: 600px;
+    padding-top: 80px;
+}
+.solos .hsksolo .hskfirst{
+    display: flex;
+    flex-direction: row;
+}
+.solos .hsksolo .hskfirst .hope{
+    padding-left: 200px;
+}
+.solos .hsksolo .hskfirst .hope:hover{
+    transform: scale(1.06);
+}
+.solos .hsksolo .hskfirst .jitb{
+    padding-left: 200px;
+}
+.solos .hsksolo .hskfirst .jitb:hover{
+    transform: scale(1.06);
+}
+.solos .hsksolo .rush{
+    padding-left: 450px;
+}
+.solos .hsksolo .rush:hover{
+    transform: scale(1.06);
+}
+.solos .hsksolo .hsksecond{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.solos .hsksolo .hsksecond .cns{
+    padding-left: 200px;
+}
+.solos .hsksolo .hsksecond .cns:hover{
+    transform: scale(1.06);
+}
+.solos .hsksolo .hsksecond .blueside{
+    padding-left: 200px;
+}
+.solos .hsksolo .hsksecond .blueside:hover{
+    transform: scale(1.06);
+}
+.solos .jmsolo img{
+    height: 316px;
+    width: 316px;
+    padding-top: 40px;
+}
+.solos .jmsolo h1{
+    padding-left: 600px;
+    padding-top: 80px;
+}
+.solos .jmsolo .jmfirst{
+    display: flex;
+    flex-direction: row;
+}
+.solos .jmsolo .jmfirst .promise{
+    padding-left: 200px;
+}
+.solos .jmsolo .jmfirst .promise:hover{
+    transform: scale(1.06);
+}
+.solos .jmsolo .jmfirst .withyou{
+    padding-left: 200px;
+}
+.solos .jmsolo .jmfirst .withyou:hover{
+    transform: scale(1.06);
+}
+.solos .jmsolo .vibe{
+    padding-left: 450px;
+}
+.solos .jmsolo .vibe:hover{
+    transform: scale(1.06);
+}
+.solos .jmsolo .jmsecond{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.solos .jmsolo .jmsecond .christmaslove{
+    padding-left: 200px;
+}
+.solos .jmsolo .jmsecond .christmaslove:hover{
+    transform: scale(1.06);
+}
+.solos .jmsolo .jmsecond .serendipity{
+    padding-left: 200px;
+}
+.solos .jmsolo .jmsecond .serendipity:hover{
+    transform: scale(1.06);
+}
+.solos .thsolo img{
+    height: 316px;
+    width: 316px;
+    padding-top: 40px;
+}
+.solos .thsolo h1{
+    padding-left: 600px;
+    padding-top: 80px;
+}
+.solos .thsolo .thfirst{
+    display: flex;
+    flex-direction: row;
+}
+.solos .thsolo .thfirst .christmastree{
+    padding-left: 200px;
+}
+.solos .thsolo .thfirst .christmastree:hover{
+    transform: scale(1.06);
+}
+.solos .thsolo .thfirst .snowflower{
+    padding-left: 200px;
+}
+.solos .thsolo .thfirst .snowflower:hover{
+    transform: scale(1.06);
+}
+.solos .thsolo .winterbear{
+    padding-left: 450px;
+}
+.solos .thsolo .winterbear:hover{
+    transform: scale(1.06);
+}
+.solos .thsolo .thsecond{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.solos .thsolo .thsecond .sweetnight{
+    padding-left: 200px;
+}
+.solos .thsolo .thsecond .sweetnight:hover{
+    transform: scale(1.06);
+}
+.solos .thsolo .thsecond .scenery{
+    padding-left: 200px;
+}
+.solos .thsolo .thsecond .scenery:hover{
+    transform: scale(1.06);
+}
+.solos .jksolo img{
+    height: 316px;
+    width: 316px;
+    padding-top: 40px;
+}
+.solos .jksolo h1{
+    padding-left: 600px;
+    padding-top: 80px;
+}
+.solos .jksolo .jkfirst{
+    display: flex;
+    flex-direction: row;
+}
+.solos .jksolo .jkfirst .leftandright{
+    padding-left: 200px;
+}
+.solos .jksolo .jkfirst .leftandright:hover{
+    transform: scale(1.06);
+}
+.solos .jksolo .jkfirst .stayalive{
+    padding-left: 200px;
+}
+.solos .jksolo .jkfirst .stayalive:hover{
+    transform: scale(1.06);
+}
+.solos .jksolo .myyou{
+    padding-left: 450px;
+}
+.solos .jksolo .myyou:hover{
+    transform: scale(1.06);
+}
+.solos .jksolo .jksecond{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.solos .jksolo .jksecond .swy{
+    padding-left: 200px;
+}
+.solos .jksolo .jksecond .swy:hover{
+    transform: scale(1.06);
+}
+.solos .jksolo .jksecond .dreamers{
+    padding-left: 200px;
+}
+.solos .jksolo .jksecond .dreamers:hover{
+    transform: scale(1.06);
+}
+    
+    
