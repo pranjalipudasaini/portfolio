@@ -113,3 +113,38 @@ body{
     transform: scale(1.06);
     color: #205fbf;
 }
+.main nav .fa{
+    display: none;
+}
+@media(max-width:700px){
+    .main .text h1{
+        font-size: 25px;
+    }
+    .main .nav-links ul li{
+        display: block;
+    }
+    .main .nav-links{
+        position: absolute;
+        background: #000000;
+        height: 100vh;
+        width: 200px;
+        top:0;
+        right: -200px;
+        text-align: left;
+        z-index:2;
+        transition: 1s;
+    }
+    .main nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .main .nav-links ul{
+        padding:30px;
+    }
+}
+
+
+
