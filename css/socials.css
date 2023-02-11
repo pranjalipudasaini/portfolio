@@ -57,12 +57,13 @@ body{
     width: 100%;
     transition: 0.5s;
 }
+
 .intro h1{
-    padding-left: 500px;
+    text-align: center;
     padding-top: 40px;
 }
 .intro p{
-    padding-left: 400px;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -158,6 +159,30 @@ body{
     }
     .main .nav-links ul{
         padding:30px;
+    }
+    .socials{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .socials a{
+        justify-content: center;
+    }
+    .socials .websites{
+        padding-left: 0;
+    }
+    .socials .twitter{
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .socials .instagram{
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .socials .youtube{
+        padding-left: 0;
+        padding-top: 30px;
     }
 }
 

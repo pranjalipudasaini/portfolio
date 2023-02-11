@@ -66,8 +66,7 @@ body{
     flex-direction: column;
 }
 .container .info .heading{
-    padding-left: 475px;
-    padding-right: 80px;
+    text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -182,6 +181,10 @@ body{
 .members .Taehyung p{
     padding-left: 120px
 }
+.members .images .last{
+    display:flex;
+    flex-direction: row;
+}
 .members .Jungkook img{
     width: 350px;
     height: 350px;
@@ -225,6 +228,35 @@ body{
     }
     .main .nav-links ul{
         padding:30px;
+    }
+    .container .info .heading{
+        align-items: center;
+    }
+    .container .info .para{
+        font-size: 1.25rem;
+        line-height: 1.75;
+    }
+    .members .images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .members .images .three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .members .images .next{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .members .images .last{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        padding-bottom: 30px;
+        padding-right: 447px;
     }
 }
 

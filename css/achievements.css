@@ -59,15 +59,20 @@ body{
 }
 .major{
     display: flex;
+    flex-direction: row;
+}
+.major .awards{
+    flex-direction: column;
+    width: 50%;
 }
 .major .awards h1{
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
     text-decoration: underline #4f75e8;
 }
 .major .awards ul{
     position: absolute;
-    width: 450px;
     box-sizing: border-box;
     padding-left: 70px;
 }
@@ -84,11 +89,14 @@ body{
     transition:0.5s;
 }
 .major .achievements{
-    padding-left: 370px;
+    padding-left: 200px;
+    flex-direction: column;
+    width: 50%;
 }
 .major .achievements h1{
     padding-top: 10px;
     padding-bottom: 20px;
+    text-align: center;
     text-decoration: underline #4f75e8;
 }
 .major .achievements ul{
@@ -144,6 +152,35 @@ body{
     .main .nav-links ul{
         padding:30px;
     }
+    .major{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .major .achievements{
+        padding-top: 2500px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li {
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    li a {
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+    }
+      
+      
 }
 
 
